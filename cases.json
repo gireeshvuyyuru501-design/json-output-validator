@@ -1,0 +1,7 @@
+[
+  {"id":"valid-1","output":"{\"answer\":\"Paris\",\"confidence\":0.95,\"citations\":[\"doc-1\"]}"},
+  {"id":"missing-required","output":"{\"answer\":\"Paris\",\"citations\":[]}"},
+  {"id":"invalid-json","output":"{answer: Paris}"},
+  {"id":"wrong-type","output":"{\"answer\":\"Paris\",\"confidence\":\"high\",\"citations\":[]}"},
+  {"id":"extra-field","output":"{\"answer\":\"Paris\",\"confidence\":0.9,\"citations\":[],\"debug\":true}"}
+]

@@ -1,0 +1,1 @@
+{"type":"object","required":["answer","confidence","citations"],"properties":{"answer":{"type":"string","minLength":1},"confidence":{"type":"number"},"citations":{"type":"array","items":{"type":"string"}}},"additionalProperties":false}
